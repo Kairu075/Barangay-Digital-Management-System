@@ -321,7 +321,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <div class="login-container">
     <div class="login-left">
         <div class="emblem">
-            <i class="fas fa-shield-halved"></i>
+            <img src="assets/img/logo.png" alt="Barangay Logo" style="width: 100px; height: 100px; border-radius: 50%;">
         </div>
         <h1>Barangay San Marino</h1>
         <div class="gold-divider"></div>
