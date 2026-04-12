@@ -11,39 +11,7 @@
 - Apache Web Server
 - Web Browser
 
----
 
-### Step 1: Copy Files to XAMPP
-Copy the `barangay` folder into your XAMPP `htdocs` directory:
-```
-C:\xampp\htdocs\barangay\
-```
-
-### Step 2: Import the Database
-1. Start **Apache** and **MySQL** from XAMPP Control Panel
-2. Open your browser → go to: `http://localhost/phpmyadmin`
-3. Click **"New"** to create a new database OR just import directly
-4. Click **"Import"** tab
-5. Choose file: `barangay/database.sql`
-6. Click **"Go"** to import
-
-### Step 3: Configure Database Connection
-Open `barangay/includes/config.php` and update if needed:
-```php
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');         // Your MySQL password if any
-define('DB_NAME', 'barangay_san_marino');
-define('SITE_URL', 'http://localhost/barangay');
-```
-
-### Step 4: Access the System
-Open your browser and go to:
-```
-http://localhost/barangay
-```
-
----
 
 ## 🔐 DEFAULT LOGIN ACCOUNTS
 All accounts use the password: **password**
@@ -197,4 +165,4 @@ barangay/
 
 ---
 
-*Built for Barangay San Marino | City of Manila, Metro Manila*
+*By: Kyle Dominic Yap*
