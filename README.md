@@ -1,4 +1,4 @@
-# 🏛️ Barangay San Marino - Digital Management System
+# 🏛️ Barangay - Digital Management System
 ### Complete Web-Based Barangay Management System for XAMPP
 
 ---
