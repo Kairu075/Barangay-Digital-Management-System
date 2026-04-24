@@ -11,7 +11,7 @@ define('SITE_NAME', 'Barangay Nangka');
 define('SITE_URL', 'http://localhost/barangay');
 define('BARANGAY_CAPTAIN', 'Hon. Roberto Reyes');
 define('MUNICIPALITY', 'City of Marikina');
-define('PROVINCE', 'Metro Marikina');
+define('PROVINCE', 'Metro Manila');
 
 try {
     $pdo = new PDO(

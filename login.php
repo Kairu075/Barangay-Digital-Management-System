@@ -325,7 +325,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
         <h1>Barangay Nangka</h1>
         <div class="gold-divider"></div>
-        <p class="sub"><strong>City of Marikina, Metro Marikina</strong></p>
+        <p class="sub"><strong>City of Marikina, Metro Manila</strong></p>
         <p class="desc"><b>Integrated Digital Management System</b> Disclaimer: This is a personal project by <strong>Kyle Dominic Yap</strong> for demonstration purposes. It is not an official platform of Barangay Nangka. All data, documents, and financial records generated here are simulated and hold no legal validity.</p>
         <div class="login-badges">
             <span class="login-badge"><i class="fas fa-users"></i> 10,500 Residents</span>

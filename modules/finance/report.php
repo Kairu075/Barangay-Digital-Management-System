@@ -70,7 +70,7 @@ include '../../includes/header.php';
     <div style="text-align:center;border-bottom:3px double #333;padding-bottom:16px;margin-bottom:20px;font-family:'Times New Roman',serif;">
         <div style="font-size:11px;letter-spacing:2px;">REPUBLIC OF THE PHILIPPINES</div>
         <div style="font-weight:bold;font-size:20px;margin:4px 0;">BARANGAY Nangka</div>
-        <div style="font-size:12px;color:#555;">City of Marikina, Metro Marikina</div>
+        <div style="font-size:12px;color:#555;">City of Marikina, Metro Manila</div>
         <div style="font-size:14px;font-weight:bold;margin-top:12px;letter-spacing:2px;border:2px solid #333;display:inline-block;padding:5px 24px;">
             MONTHLY FINANCIAL REPORT
         </div>

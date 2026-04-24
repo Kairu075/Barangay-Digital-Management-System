@@ -75,7 +75,7 @@ include '../../includes/header.php';
         <div class="header-text">
             <div class="republic">REPUBLIC OF THE PHILIPPINES</div>
             <div class="brgy-name">Barangay Nangka</div>
-            <div class="brgy-addr">City of Marikina, Metro Marikina</div>
+            <div class="brgy-addr">City of Marikina, Metro Manila</div>
         </div>
         <div class="header-right">
             <div>Contact: (02) 8123-4567</div>
@@ -192,7 +192,7 @@ include '../../includes/header.php';
 
     <div class="doc-gold-bar"></div>
     <div class="doc-footer-strip">
-        <span>Barangay Nangka | City of Marikina, Metro Marikina | Tel: (02) 8123-4567</span>
+        <span>Barangay Nangka | City of Marikina, Metro Manila | Tel: (02) 8123-4567</span>
         <span>Generated: <?= date('Y-m-d H:i:s') ?> | <?= $control_no ?></span>
     </div>
 </div>
