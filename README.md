@@ -1,4 +1,4 @@
-# 🏛️ Barangay San Marino - Digital Management System
+#🏛️ Barangay Nangka - Digital Management System
 ### Complete Web-Based Barangay Management System for XAMPP
 
 ---
@@ -73,34 +73,7 @@ All accounts use the password: **password**
 
 ---
 
-## 🎨 DESIGN SYSTEM
-
-**Colors:**
-- San Marino Blue: `#446CAC`
-- Champagne Gold: `#FBC531`
-- Cloud Dancer: `#F0EEE9`
-
-**Typography:** Plus Jakarta Sans + Lora (serif)
-
-**Features:**
-- Fully responsive (mobile/tablet/desktop)
-- Print-ready document generation
-- Role-based access control
-- Clean sidebar navigation with user card
-
----
-
-## 🖨️ PRINTING DOCUMENTS
-
-To print any document or report:
-1. Navigate to the document/report page
-2. Click the **"Print"** button
-3. A print-optimized version will open
-4. Use browser print (Ctrl+P) or the auto-print dialog
-
----
-
-## 🔒 SECURITY NOTES
+##  SECURITY NOTES
 
 - Passwords are hashed using PHP `password_hash()` (bcrypt)
 - Role-based access control on every page
@@ -109,7 +82,7 @@ To print any document or report:
 
 ---
 
-## 📁 PROJECT STRUCTURE
+##  PROJECT STRUCTURE
 
 ```
 barangay/
