@@ -1,4 +1,4 @@
-#🏛️ Barangay Nangka - Digital Management System
+##  Barangay Nangka - Digital Management System
 ### Complete Web-Based Barangay Management System for XAMPP
 
 ---
