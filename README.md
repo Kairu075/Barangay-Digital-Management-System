@@ -1,19 +1,9 @@
-# 🏛️ Barangay Nangka - Digital Management System
+# 🏛️ Barangay San Marino - Digital Management System
 ### Complete Web-Based Barangay Management System for XAMPP
 
 ---
 
-## 📦 INSTALLATION GUIDE
-
-### Requirements
-- XAMPP (PHP 7.4+ / 8.0+)
-- MySQL 5.7+
-- Apache Web Server
-- Web Browser
-
-
-
-## 🔐 DEFAULT LOGIN ACCOUNTS
+##  DEFAULT LOGIN ACCOUNTS
 All accounts use the password: **password**
 
 | Username | Password | Role |
@@ -26,7 +16,7 @@ All accounts use the password: **password**
 
 ---
 
-## 📋 SYSTEM MODULES
+##  SYSTEM MODULES
 
 ### 1. Dashboard
 - Overview statistics (residents, documents, complaints, finances)
@@ -86,7 +76,7 @@ All accounts use the password: **password**
 ## 🎨 DESIGN SYSTEM
 
 **Colors:**
-- Nangka Blue: `#446CAC`
+- San Marino Blue: `#446CAC`
 - Champagne Gold: `#FBC531`
 - Cloud Dancer: `#F0EEE9`
 
