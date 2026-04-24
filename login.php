@@ -40,7 +40,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Barangay San Marino Management System</title>
+    <title>Login - Barangay Nangka Management System</title>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Lora:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
@@ -323,9 +323,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="emblem">
             <img src="assets/img/logo.png" alt="Barangay Logo" style="width: 100px; height: 100px; border-radius: 50%;">
         </div>
-        <h1>Barangay San Marino</h1>
+        <h1>Barangay Nangka</h1>
         <div class="gold-divider"></div>
-        <p class="sub">City of Manila, Metro Manila</p>
+        <p class="sub">City of Marikina, Metro Marikina</p>
         <p class="desc">Integrated Digital Management System — Serving the community with transparency, efficiency, and excellence.</p>
         <div class="login-badges">
             <span class="login-badge"><i class="fas fa-users"></i> 10,500 Residents</span>
@@ -365,7 +365,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </form>
 
         <div class="demo-accounts">
-            <p>Demo Accounts (password: <strong>password</strong>)</p>
+            
             <div class="demo-grid">
                 <button class="demo-btn" onclick="fillLogin('admin','password')">
                     <strong>Admin</strong>admin

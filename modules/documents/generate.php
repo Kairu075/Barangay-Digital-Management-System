@@ -25,8 +25,8 @@ include '../../includes/header.php';
 .doc-inner { position: relative; z-index: 1; padding: 50px 60px; font-family: 'Times New Roman', serif; }
 .doc-gold-bar { height: 6px; background: linear-gradient(90deg, #2d4d80, #446CAC, #FBC531, #446CAC, #2d4d80); }
 .doc-header-strip { background: linear-gradient(135deg, #1e3557, #2d4d80); padding: 20px 50px; display: flex; align-items: center; gap: 20px; }
-.header-seal { width: 70px; height: 70px; background: #FBC531; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
-.header-seal i { font-size: 28px; color: #2d4d80; }
+.header-seal { width: 70px; height: 70px; background: #FBC531; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; overflow: hidden; }
+.header-seal img { width: 100%; height: 100%; object-fit: cover; }
 .header-text { color: white; }
 .header-text .republic { font-size: 11px; letter-spacing: 2px; opacity: 0.7; }
 .header-text .brgy-name { font-size: 22px; font-weight: 900; font-family: 'Lora', serif; letter-spacing: 0.5px; }
@@ -71,15 +71,15 @@ include '../../includes/header.php';
 <div class="doc-preview" id="printDoc">
     <div class="doc-gold-bar"></div>
     <div class="doc-header-strip">
-        <div class="header-seal"><i class="fas fa-shield-halved"></i></div>
+<div class="header-seal"><img src="../../assets/img/logo.png" alt="Barangay Logo"></div>
         <div class="header-text">
             <div class="republic">REPUBLIC OF THE PHILIPPINES</div>
-            <div class="brgy-name">Barangay San Marino</div>
-            <div class="brgy-addr">City of Manila, Metro Manila</div>
+            <div class="brgy-name">Barangay Nangka</div>
+            <div class="brgy-addr">City of Marikina, Metro Marikina</div>
         </div>
         <div class="header-right">
             <div>Contact: (02) 8123-4567</div>
-            <div>Email: bsanmarino@gmail.com</div>
+            <div>Email: bnangka@gmail.com</div>
             <div>Date: <?= $doc_date ?></div>
         </div>
     </div>
@@ -100,7 +100,7 @@ include '../../includes/header.php';
                 <p style="text-indent:50px;">
                     This is to certify that <span class="highlight"><?= strtoupper($doc['full_name']) ?></span>, 
                     <?= $age ?> years old, <?= $doc['civil_status'] ?>, a bonafide resident of 
-                    <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay San Marino') ?></span>, 
+                    <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay Nangka') ?></span>, 
                     this Barangay, is personally known to this office to be of good moral character and has no 
                     derogatory record on file as of this date.
                 </p>
@@ -115,7 +115,7 @@ include '../../includes/header.php';
                     This is to certify that <span class="highlight"><?= strtoupper($doc['full_name']) ?></span>, 
                     <?= $age ?> years old, <?= $doc['gender'] ?>, <?= $doc['civil_status'] ?>, with Resident 
                     ID No. <strong><?= $doc['resident_id'] ?></strong>, is a bonafide resident and legal 
-                    occupant of <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay San Marino, City of Manila') ?></span>.
+                    occupant of <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay Nangka, City of Marikina') ?></span>.
                 </p>
                 <p style="text-indent:50px;">
                     The above-named individual has been residing in this Barangay for a considerable period 
@@ -130,7 +130,7 @@ include '../../includes/header.php';
                 <p style="text-indent:50px;">
                     This is to certify that <span class="highlight"><?= strtoupper($doc['full_name']) ?></span>, 
                     <?= $age ?> years old, <?= $doc['civil_status'] ?>, residing at 
-                    <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay San Marino') ?></span>, 
+                    <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay Nangka') ?></span>, 
                     belongs to an indigent family in this Barangay.
                 </p>
                 <p style="text-indent:50px;">
@@ -147,15 +147,15 @@ include '../../includes/header.php';
                 <p style="text-indent:50px;">
                     This is to certify that <span class="highlight"><?= strtoupper($doc['full_name']) ?></span>, 
                     <?= $age ?> years old, <?= $doc['civil_status'] ?>, a resident of 
-                    <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay San Marino') ?></span> 
+                    <span class="highlight"><?= htmlspecialchars($doc['address'] ?? 'Barangay Nangka') ?></span> 
                     has requested the issuance of this <strong><?= $doc['document_type'] ?></strong> for the 
                     purpose of <span class="highlight"><?= strtoupper($doc['purpose']) ?></span>.
                 </p>
                 <?php endif; ?>
 
                 <p style="text-indent:50px;">
-                    Issued this <strong><?= date('jS') ?> day of <?= date('F Y') ?></strong> at Barangay San Marino, 
-                    City of Manila, Philippines.
+                    Issued this <strong><?= date('jS') ?> day of <?= date('F Y') ?></strong> at Barangay Nangka, 
+                    City of Marikina, Philippines.
                 </p>
             </div>
 
@@ -169,7 +169,7 @@ include '../../includes/header.php';
                     <div style="font-size:12px;color:#555;">Approved by:</div>
                     <div class="sig-name">Hon. Roberto Reyes</div>
                     <div class="sig-title">Barangay Captain</div>
-                    <div class="sig-title">Barangay San Marino, City of Manila</div>
+                    <div class="sig-title">Barangay Nangka, City of Marikina</div>
                 </div>
             </div>
 
@@ -192,7 +192,7 @@ include '../../includes/header.php';
 
     <div class="doc-gold-bar"></div>
     <div class="doc-footer-strip">
-        <span>Barangay San Marino | City of Manila, Metro Manila | Tel: (02) 8123-4567</span>
+        <span>Barangay Nangka | City of Marikina, Metro Marikina | Tel: (02) 8123-4567</span>
         <span>Generated: <?= date('Y-m-d H:i:s') ?> | <?= $control_no ?></span>
     </div>
 </div>

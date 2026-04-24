@@ -38,7 +38,7 @@ include '../../includes/header.php';
 <div class="page-header flex-between">
     <div>
         <h1><i class="fas fa-users"></i> Residents</h1>
-        <p>Manage and view all registered residents of Barangay San Marino.</p>
+        <p>Manage and view all registered residents of Barangay Nangka.</p>
     </div>
     <a href="add.php" class="btn btn-primary"><i class="fas fa-user-plus"></i> Add Resident</a>
 </div>

@@ -1,5 +1,5 @@
 // ============================================================
-// BARANGAY SAN MARINO - MAIN JS
+// BARANGAY Nangka - MAIN JS
 // ============================================================
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function () {
             <!DOCTYPE html>
             <html>
             <head>
-                <title>Barangay San Marino - Document</title>
+                <title>Barangay Nangka - Document</title>
                 <style>
                     body { font-family: 'Times New Roman', serif; margin: 30px; font-size: 13px; line-height: 1.8; }
                     .doc-header { text-align: center; border-bottom: 3px double #333; padding-bottom: 16px; margin-bottom: 20px; }

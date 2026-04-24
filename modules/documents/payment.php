@@ -65,8 +65,8 @@ include '../../includes/header.php';
     <div class="or-receipt" style="border:2px solid #333;padding:24px;font-family:'Courier New',monospace;font-size:13px;background:white;border-radius:8px;box-shadow:var(--shadow);">
         <div style="text-align:center;border-bottom:2px dashed #333;padding-bottom:14px;margin-bottom:14px;">
             <div style="font-size:9px;letter-spacing:2px;">REPUBLIC OF THE PHILIPPINES</div>
-            <div style="font-weight:bold;font-size:15px;margin:4px 0;">BARANGAY SAN MARINO</div>
-            <div style="font-size:10px;color:#555;">City of Manila, Metro Manila</div>
+            <div style="font-weight:bold;font-size:15px;margin:4px 0;">BARANGAY Nangka</div>
+            <div style="font-size:10px;color:#555;">City of Marikina, Metro Marikina</div>
             <div style="font-size:18px;font-weight:bold;margin:8px 0;letter-spacing:1px;">OFFICIAL RECEIPT</div>
             <div style="font-size:11px;font-weight:bold;">OR No.: <?= $receipt['or_no'] ?></div>
         </div>
@@ -98,7 +98,7 @@ include '../../includes/header.php';
         </div>
 
         <div style="text-align:center;margin-top:14px;font-size:9px;color:#888;border-top:1px dashed #ccc;padding-top:10px;">
-            Thank you for transacting with Barangay San Marino.<br>
+            Thank you for transacting with Barangay Nangka.<br>
             This is your official receipt. Please keep it for your records.
         </div>
     </div>

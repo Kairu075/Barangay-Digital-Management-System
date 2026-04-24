@@ -6,7 +6,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?= $page_title ?? 'Barangay San Marino' ?> - Barangay San Marino Management System</title>
+    <title><?= $page_title ?? 'Barangay Nangka' ?> - Barangay Nangka Management System</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -23,13 +23,11 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
     <img src="<?= SITE_URL ?>/assets/img/logo.png" alt="Logo" style="width:32px;height:32px;object-fit:contain;">
             </div>
             <div class="logo-text">
-                <span class="logo-main">San Marino</span>
+                <span class="logo-main">Barangay Nangka</span>
                 <span class="logo-sub">Barangay System</span>
             </div>
         </div>
-        <button class="sidebar-toggle" id="sidebarToggle">
-            <i class="fas fa-bars"></i>
-        </button>
+
     </div>
 
     <div class="user-card">
@@ -105,7 +103,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
                 <i class="fas fa-bars"></i>
             </button>
             <div class="breadcrumb">
-                <span class="breadcrumb-barangay"><i class="fas fa-location-dot"></i> Barangay San Marino</span>
+                <span class="breadcrumb-barangay"><i class="fas fa-location-dot"></i> Barangay Nangka</span>
                 <i class="fas fa-chevron-right"></i>
                 <span><?= $page_title ?? 'Dashboard' ?></span>
             </div>

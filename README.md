@@ -1,4 +1,4 @@
-# 🏛️ Barangay San Marino - Digital Management System
+# 🏛️ Barangay Nangka - Digital Management System
 ### Complete Web-Based Barangay Management System for XAMPP
 
 ---
@@ -86,7 +86,7 @@ All accounts use the password: **password**
 ## 🎨 DESIGN SYSTEM
 
 **Colors:**
-- San Marino Blue: `#446CAC`
+- Nangka Blue: `#446CAC`
 - Champagne Gold: `#FBC531`
 - Cloud Dancer: `#F0EEE9`
 

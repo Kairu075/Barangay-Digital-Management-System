@@ -7,11 +7,11 @@ define('DB_USER', 'root');
 define('DB_PASS', '');
 define('DB_NAME', 'barangay_san_marino');
 
-define('SITE_NAME', 'Barangay San Marino');
+define('SITE_NAME', 'Barangay Nangka');
 define('SITE_URL', 'http://localhost/barangay');
 define('BARANGAY_CAPTAIN', 'Hon. Roberto Reyes');
-define('MUNICIPALITY', 'City of Manila');
-define('PROVINCE', 'Metro Manila');
+define('MUNICIPALITY', 'City of Marikina');
+define('PROVINCE', 'Metro Marikina');
 
 try {
     $pdo = new PDO(

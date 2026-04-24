@@ -1,5 +1,5 @@
 -- ============================================================
--- BARANGAY SAN MARINO - DATABASE SCHEMA & MOCK DATA
+-- BARANGAY Nangka - DATABASE SCHEMA & MOCK DATA
 -- ============================================================
 
 CREATE DATABASE IF NOT EXISTS barangay_san_marino CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
@@ -186,16 +186,16 @@ INSERT INTO households (household_no, address, purok, household_head, contact_no
 -- MOCK DATA - RESIDENTS
 -- ============================================================
 INSERT INTO residents (resident_id, household_id, last_name, first_name, middle_name, birthdate, birthplace, gender, civil_status, occupation, monthly_income, voter_status, email, contact_no) VALUES
-('RES-2024-0001', 1, 'Cruz', 'Jose', 'Reyes', '1985-03-15', 'Manila', 'Male', 'Married', 'Tricycle Driver', 12000, 1, 'jose@email.com', '09221234567'),
+('RES-2024-0001', 1, 'Cruz', 'Jose', 'Reyes', '1985-03-15', 'Marikina', 'Male', 'Married', 'Tricycle Driver', 12000, 1, 'jose@email.com', '09221234567'),
 ('RES-2024-0002', 1, 'Cruz', 'Maria', 'Santos', '1987-07-22', 'Quezon City', 'Female', 'Married', 'Housewife', 0, 1, 'maria.cruz@email.com', '09221234568'),
-('RES-2024-0003', 2, 'Dela Cruz', 'Maria', 'Lim', '1992-11-08', 'Manila', 'Female', 'Single', 'Teacher', 28000, 1, 'maria@email.com', '09231234567'),
+('RES-2024-0003', 2, 'Dela Cruz', 'Maria', 'Lim', '1992-11-08', 'Marikina', 'Female', 'Single', 'Teacher', 28000, 1, 'maria@email.com', '09231234567'),
 ('RES-2024-0004', 3, 'Reyes', 'Pedro', 'Bautista', '1978-05-30', 'Bulacan', 'Male', 'Married', 'Carpenter', 15000, 1, 'pedro@email.com', '09241234567'),
-('RES-2024-0005', 4, 'Mendoza', 'Ana', 'Garcia', '2000-09-14', 'Manila', 'Female', 'Single', 'Student', 0, 0, 'ana@email.com', '09251234567'),
+('RES-2024-0005', 4, 'Mendoza', 'Ana', 'Garcia', '2000-09-14', 'Marikina', 'Female', 'Single', 'Student', 0, 0, 'ana@email.com', '09251234567'),
 ('RES-2024-0006', 5, 'Bautista', 'Carlos', 'Rivera', '1965-01-20', 'Cavite', 'Male', 'Widowed', 'Retired', 8000, 1, 'carlos@email.com', '09261234567'),
 ('RES-2024-0007', 6, 'Castillo', 'Lina', 'Ortega', '1990-06-12', 'Laguna', 'Female', 'Married', 'Nurse', 32000, 1, 'lina@email.com', '09271234567'),
 ('RES-2024-0008', 7, 'Santos', 'Ramon', 'Aquino', '1955-12-05', 'Pampanga', 'Male', 'Married', 'Retired', 5000, 1, 'ramon@email.com', '09281234567'),
 ('RES-2024-0009', 8, 'Flores', 'Elena', 'Torres', '1983-04-18', 'Batangas', 'Female', 'Married', 'Vendor', 9000, 1, 'elena@email.com', '09291234567'),
-('RES-2024-0010', 1, 'Cruz', 'Juan', 'Reyes', '2010-08-25', 'Manila', 'Male', 'Single', 'Student', 0, 0, '', '');
+('RES-2024-0010', 1, 'Cruz', 'Juan', 'Reyes', '2010-08-25', 'Marikina', 'Male', 'Single', 'Student', 0, 0, '', '');
 
 UPDATE residents SET senior_citizen = 1 WHERE birthdate <= DATE_SUB(CURDATE(), INTERVAL 60 YEAR);
 UPDATE residents r SET r.pwd = 1 WHERE r.id = 6;
@@ -227,9 +227,9 @@ INSERT INTO complaints (complaint_no, complainant_id, respondent_name, responden
 -- MOCK DATA - ANNOUNCEMENTS
 -- ============================================================
 INSERT INTO announcements (title, content, category, priority, start_date, end_date, is_published, created_by) VALUES
-('Free Vaccination Drive - Anti-Rabies', 'Barangay San Marino Health Center will conduct a FREE Anti-Rabies vaccination for pets and livestock on February 15, 2024. Bring your pets to the Barangay Hall from 8:00 AM to 5:00 PM. This is in partnership with the City Veterinary Office.', 'Health', 'Important', '2024-02-10', '2024-02-15', 1, 2),
+('Free Vaccination Drive - Anti-Rabies', 'Barangay Nangka Health Center will conduct a FREE Anti-Rabies vaccination for pets and livestock on February 15, 2024. Bring your pets to the Barangay Hall from 8:00 AM to 5:00 PM. This is in partnership with the City Veterinary Office.', 'Health', 'Important', '2024-02-10', '2024-02-15', 1, 2),
 ('Community Clean-Up Drive', 'All residents are invited to join our monthly Barangay Clean-Up Drive on February 17, 2024 (Saturday) starting at 7:00 AM. Kindly bring your own cleaning materials. Refreshments will be provided.', 'Events', 'Normal', '2024-02-12', '2024-02-17', 1, 2),
-('Water Service Interruption Advisory', 'ADVISORY: There will be a scheduled water service interruption on February 20, 2024 from 8:00 AM to 5:00 PM due to maintenance works by Manila Water. Please store enough water for your household needs.', 'Advisory', 'Urgent', '2024-02-18', '2024-02-20', 1, 2),
+('Water Service Interruption Advisory', 'ADVISORY: There will be a scheduled water service interruption on February 20, 2024 from 8:00 AM to 5:00 PM due to maintenance works by Marikina Water. Please store enough water for your household needs.', 'Advisory', 'Urgent', '2024-02-18', '2024-02-20', 1, 2),
 ('Senior Citizens Monthly Benefits Distribution', 'Senior Citizens are reminded to claim their monthly OSCA benefits at the Barangay Hall every last Friday of the month from 8:00 AM to 12:00 NN. Please bring valid ID and OSCA booklet.', 'Programs', 'Normal', '2024-02-01', '2024-12-31', 1, 2),
 ('Barangay Assembly Meeting', 'All residents are invited to attend the Quarterly Barangay Assembly Meeting on March 1, 2024 at 2:00 PM at the Barangay Covered Court. Agenda: Budget transparency, infrastructure projects update, and community concerns.', 'General', 'Important', '2024-02-20', '2024-03-01', 1, 2);
 

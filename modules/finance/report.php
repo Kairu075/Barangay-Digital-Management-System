@@ -69,8 +69,8 @@ include '../../includes/header.php';
     <!-- Report Header -->
     <div style="text-align:center;border-bottom:3px double #333;padding-bottom:16px;margin-bottom:20px;font-family:'Times New Roman',serif;">
         <div style="font-size:11px;letter-spacing:2px;">REPUBLIC OF THE PHILIPPINES</div>
-        <div style="font-weight:bold;font-size:20px;margin:4px 0;">BARANGAY SAN MARINO</div>
-        <div style="font-size:12px;color:#555;">City of Manila, Metro Manila</div>
+        <div style="font-weight:bold;font-size:20px;margin:4px 0;">BARANGAY Nangka</div>
+        <div style="font-size:12px;color:#555;">City of Marikina, Metro Marikina</div>
         <div style="font-size:14px;font-weight:bold;margin-top:12px;letter-spacing:2px;border:2px solid #333;display:inline-block;padding:5px 24px;">
             MONTHLY FINANCIAL REPORT
         </div>
@@ -177,7 +177,7 @@ include '../../includes/header.php';
     </div>
 
     <div style="text-align:center;margin-top:20px;font-size:10.5px;color:#888;border-top:1px solid #ddd;padding-top:10px;font-family:'Times New Roman',serif;">
-        This is an official financial report of Barangay San Marino, City of Manila. Generated via the Barangay San Marino Digital Management System.
+        This is an official financial report of Barangay Nangka, City of Marikina. Generated via the Barangay Nangka Digital Management System.
     </div>
 </div>
 
