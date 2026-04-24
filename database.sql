@@ -2,8 +2,8 @@
 -- BARANGAY Nangka - DATABASE SCHEMA & MOCK DATA
 -- ============================================================
 
-CREATE DATABASE IF NOT EXISTS barangay_san_marino CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE barangay_san_marino;
+CREATE DATABASE IF NOT EXISTS barangay_nangka CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE barangay_nangka;
 
 -- ============================================================
 -- USERS TABLE
