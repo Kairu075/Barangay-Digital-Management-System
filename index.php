@@ -1424,7 +1424,7 @@ footer {
     <li><a href="#location">Location</a></li>
     <li><a href="#hotlines">Hotlines</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="login.php" class="btn-login-nav"><i class="fas fa-right-to-bracket"></i> Staff Login</a></li>
+    <li><a href="login.php" class="btn-login-nav"><i class="fas fa-right-to-bracket"></i>Login Here</a></li>
   </ul>
 
   <button class="nav-hamburger" id="hamburger" aria-label="Menu">
@@ -2030,7 +2030,7 @@ footer {
         <li><a href="#location">Location &amp; Map</a></li>
         <li><a href="#hotlines">Hotlines</a></li>
         <li><a href="#contact">Contact Us</a></li>
-        <li><a href="login.php">Staff Login</a></li>
+        <li><a href="login.php">Login Here</a></li>
       </ul>
     </div>
 

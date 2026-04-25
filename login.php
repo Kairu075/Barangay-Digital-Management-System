@@ -78,6 +78,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             bottom: -100px; left: -100px;
             border-radius: 50%;
         }
+        .back-home {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 10;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            background: rgba(255,255,255,0.15);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255,255,255,0.25);
+            border-radius: 50px;
+            color: white;
+            font-size: 13px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.25s ease;
+        }
+        .back-home:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateX(-3px);
+        }
         .login-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
@@ -318,6 +341,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </style>
 </head>
 <body>
+<a href="index.php" class="back-home"><i class="fas fa-arrow-left"></i> Back To Home Page</a>
 <div class="login-container">
     <div class="login-left">
         <div class="emblem">
@@ -328,8 +352,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <p class="sub"><strong>City of Marikina, Metro Manila</strong></p>
         <p class="desc"><b>Integrated Digital Management System</b> Disclaimer: This is a personal project by <strong>Kyle Dominic Yap</strong> for demonstration purposes. It is not an official platform of Barangay Nangka. All data, documents, and financial records generated here are simulated and hold no legal validity.</p>
         <div class="login-badges">
-            <span class="login-badge"><i class="fas fa-users"></i> 10,500 Residents</span>
-            <span class="login-badge"><i class="fas fa-home"></i> 3,800 Households</span>
+            <span class="login-badge"><i class="fas fa-users"></i> 43,368 Residents</span>
+            <span class="login-badge"><i class="fas fa-home"></i> 9,609 Households</span>
             <span class="login-badge"><i class="fas fa-lock"></i> Secure System</span>
         </div>
     </div>
@@ -364,23 +388,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </button>
         </form>
 
-        <div class="demo-accounts">
-            
-            <div class="demo-grid">
-                <button class="demo-btn" onclick="fillLogin('admin','password')">
-                    <strong>Admin</strong>admin
-                </button>
-                <button class="demo-btn" onclick="fillLogin('captain_reyes','password')">
-                    <strong>Captain</strong>captain_reyes
-                </button>
-                <button class="demo-btn" onclick="fillLogin('sec_santos','password')">
-                    <strong>Secretary</strong>sec_santos
-                </button>
-                <button class="demo-btn" onclick="fillLogin('treas_garcia','password')">
-                    <strong>Treasurer</strong>treas_garcia
-                </button>
-            </div>
-        </div>
+
     </div>
 </div>
 
