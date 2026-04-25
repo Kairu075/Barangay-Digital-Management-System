@@ -1528,8 +1528,8 @@ footer {
       </div>
     </div>
     <div class="about-badge">
-      <div class="num">1808</div>
-      <div class="lbl">Zip Code</div>
+      <div class="num">1959</div>
+      <div class="lbl">EST</div>
     </div>
   </div>
 
