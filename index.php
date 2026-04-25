@@ -1673,7 +1673,7 @@ footer {
         <i class="fas fa-phone"></i>
         <div>
           <strong>Contact</strong>
-          (02) 8XXX-XXXX · barangaynangka@marikina.gov.ph
+          (63) 934-8625  · barangaynangka@marikina.gov.ph
         </div>
       </div>
     </div>
@@ -1916,7 +1916,7 @@ footer {
           <div class="contact-detail-icon"><i class="fas fa-phone"></i></div>
           <div class="contact-detail-text">
             <strong>Phone</strong>
-            <span>(02) 8XXX-XXXX</span>
+            <span>(63) 934-8625</span>
           </div>
         </div>
         <div class="contact-detail">
@@ -1937,7 +1937,7 @@ footer {
     </div>
 
     <div class="contact-form-card reveal">
-      <h3><i class="fas fa-paper-plane"></i> Send a Message</h3>
+      <h3><i class="fas fa-paper-plane"></i> Send a Message Via Nangka Gmail</h3>
 
       <!-- Web3Forms — replace YOUR_ACCESS_KEY with your actual key from web3forms.com -->
       <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">

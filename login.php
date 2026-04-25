@@ -354,7 +354,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="login-badges">
             <span class="login-badge"><i class="fas fa-users"></i> 43,368 Residents</span>
             <span class="login-badge"><i class="fas fa-home"></i> 9,609 Households</span>
-            <span class="login-badge"><i class="fas fa-lock"></i> Secure System</span>
+            <span class="login-badge"><i class="fas fa-lock"></i> User Demo Accout: resident1<br>
+             Password: password</span>
         </div>
     </div>
 
